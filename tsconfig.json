@@ -5,13 +5,13 @@
     "../../tsconfig.paths.json"
   ],
   "include": [
-    "../../packages/babel-helper-module-imports/src/**/*.ts",
+    "../../packages/babel-helpers/src/**/*.ts",
     "../../lib/globals.d.ts",
     "../../scripts/repo-utils/*.d.ts"
   ],
   "references": [
     {
-      "path": "../../packages/babel-traverse"
+      "path": "../../packages/babel-template"
     },
     {
       "path": "../../packages/babel-types"
